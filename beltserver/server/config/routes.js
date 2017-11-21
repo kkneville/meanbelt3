@@ -27,7 +27,7 @@ module.exports = (app, req, res) => {
 
 
 	app.all("*", (req, res, next) => {
-		res.sendFile(path.resolve("../beltclient/dist/index.html"))
+		res.sendFile(path.resolve("../beltclient/beltclient/dist/index.html"))
 	});
 
 }
